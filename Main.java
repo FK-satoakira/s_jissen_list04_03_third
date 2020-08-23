@@ -48,3 +48,4 @@ public class Main {
     }
 }
 //これだと上手くいくが、h2、h3、など新インスタンスを作り、addすると失敗するのはなぜ？
+// public boolean equals(Object o) のif(o==this)return true;をなくせばh2,h3でも行けると思ったがむりだった。
